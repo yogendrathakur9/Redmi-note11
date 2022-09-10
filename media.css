@@ -1,0 +1,164 @@
+@media(max-width:1002px) {
+    .first-nav-left {
+        width: 60%;
+        justify-content: space-evenly;
+
+    }
+
+    .first-nav-right {
+        width: 30%;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:768px) {
+    .first-nav-left {
+        display: none;
+    }
+
+    .first-nav-right {
+        width: 100vw;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px) {
+    .second-nav-links {
+        display: none;
+    }
+
+    .second-nav {
+        margin: 0;
+        padding: 10px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:768px) {
+    .third-nav {
+        display: flex;
+    }
+
+    .third-nav-left {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .third-nav-right {
+        display: none;
+    }
+
+    .third-nav-left a {
+        display: none;
+    }
+
+    .third-nav-left hr {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+
+    .section-1 {
+
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-image: none;
+    }
+
+    .section-1text {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+
+
+}
+
+@media  (max-width:768px) {
+      .section-2{
+        width: 100%;
+        height: auto;
+
+      }
+   
+    .grid-1 {
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr;
+       grid-template-rows: repeat(5 , 1fr);
+
+      
+       
+    }
+
+    .box1 {
+        width: 100%;
+        height: 100%;
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: cyan;
+
+    }
+
+    .box2 {
+        width: 100%;
+        grid-column: 2/-2;
+        grid-row: 2/3;
+        background-size: cover;
+      
+    }
+
+    .box3 {
+        width: 100%;
+        grid-column: 3/-3;
+        grid-row: 3/4;
+        
+
+    }
+
+    .box4 {
+        width: 100%;
+        grid-column: 4/-4;
+        grid-row: 4/5;
+        
+
+    }
+
+    .box5 {
+        width: 100%;
+        grid-column: 5/-5;
+        grid-row: 5/6;
+        
+
+    }
+
+    .box6 {
+        grid-row: 6/7;
+      grid-column: 6/-6;
+
+    }
+
+}
+@media ( max-width:768px) {
+    .uni-img{
+        width: 100vw;
+        height: 70vh;
+        background-size:100%;  
+      }
+      .uni-img h2{
+        font-size: 30px;
+      }
+   
+}
